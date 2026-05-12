@@ -1,0 +1,11 @@
+entries:
+  - date: "2026-05-12"
+    project: mcp-risk-linter
+    reviewer_or_org: example-agent-platform-team
+    channel: email
+    packet: packets/mcp-risk-linter-review.md
+    status: drafted
+    permission_to_name_publicly: "no"
+    technical_feedback: ""
+    follow_up_owner: AuraOne
+

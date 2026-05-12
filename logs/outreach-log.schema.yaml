@@ -1,0 +1,27 @@
+schema: auraone.lab-outreach-log.v1
+required_fields:
+  - date
+  - project
+  - reviewer_or_org
+  - channel
+  - packet
+  - status
+  - permission_to_name_publicly
+  - technical_feedback
+  - follow_up_owner
+status_values:
+  - drafted
+  - sent
+  - replied
+  - declined
+  - reviewed
+  - closed
+permission_values:
+  - "yes"
+  - "no"
+  - pending
+rules:
+  - Do not name reviewers publicly unless permission_to_name_publicly is "yes".
+  - Record technical feedback separately from endorsement language.
+  - Keep packet links public unless private context was explicitly requested.
+
