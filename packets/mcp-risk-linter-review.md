@@ -13,7 +13,7 @@ risk.
 ## Example Command
 
 ```bash
-mcp-risk-linter lint examples/risky_server.json --out report.md
+mcp-risk-linter scan examples/risky_stdio_server --out report.md
 ```
 
 ## Narrow Technical Ask
@@ -26,4 +26,3 @@ developer tool or agent platform team to block in PR review?
 This is a technical review request only. A reply does not imply endorsement,
 partnership, approval, certification, adoption, or permission to use your name or
 organization publicly.
-

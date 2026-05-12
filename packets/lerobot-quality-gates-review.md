@@ -12,7 +12,7 @@ metadata, short episodes, or timestamp alignment failures.
 ## Example Command
 
 ```bash
-lerobot-quality-gates check examples/bad_dataset --out report.md
+lerobot-quality-gates check examples/mock_lerobot_v3_bad --out report.md
 ```
 
 ## Narrow Technical Ask
@@ -25,4 +25,3 @@ training or dataset release?
 This is a technical review request only. A reply does not imply endorsement,
 partnership, approval, certification, adoption, or permission to use your name or
 organization publicly.
-

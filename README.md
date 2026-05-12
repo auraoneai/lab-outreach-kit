@@ -29,3 +29,6 @@ no-endorsement disclaimer, and one feedback log entry.
 - `templates/robotics-hil-review.md`
 - `templates/example-outreach-emails.md`
 
+## Public Review Channels
+
+- `targets/public-review-channels.md`
