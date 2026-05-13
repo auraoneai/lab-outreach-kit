@@ -41,12 +41,20 @@ be logged before any status is claimed.
 
 - `outbound-drafts/public-review-requests.md`
 - `outbound-drafts/public-review-send-queue.yaml`
+- `outbound-drafts/generated/*.md`
 
 These are ready-to-post request bodies for every pending v2 pre-seed ask. They
 are not proof of outreach until the request is actually sent and logged.
 
 The send queue maps each pending PRD outreach requirement to a target, channel,
 packet, draft source, and post-send logging state.
+
+The generated directory contains one assembled draft per queue entry. Regenerate
+it from the repo root with:
+
+```bash
+node scripts/prepare-nextwave-v2-outreach.mjs --write
+```
 
 ## Logs
 
