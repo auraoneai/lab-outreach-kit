@@ -1,0 +1,136 @@
+entries:
+  - date: "2026-05-12"
+    project: mcp-risk-linter
+    reviewer_or_org: modelcontextprotocol-discussions
+    channel: github-discussion
+    packet: packets/mcp-risk-linter-review.md
+    status: drafted
+    permission_to_name_publicly: "no"
+    technical_feedback: ""
+    follow_up_owner: AuraOne
+  - date: "2026-05-12"
+    project: mcp-risk-linter
+    reviewer_or_org: modelcontextprotocol-security-community
+    channel: public-community-contact
+    packet: packets/mcp-risk-linter-review.md
+    status: drafted
+    permission_to_name_publicly: "no"
+    technical_feedback: ""
+    follow_up_owner: AuraOne
+  - date: "2026-05-12"
+    project: a2a-contract-test
+    reviewer_or_org: a2aproject-discussions
+    channel: github-discussion
+    packet: templates/agent-protocol-review.md
+    status: drafted
+    permission_to_name_publicly: "no"
+    technical_feedback: ""
+    follow_up_owner: AuraOne
+  - date: "2026-05-12"
+    project: tool-call-replay
+    reviewer_or_org: openai-agents-python-issues
+    channel: github-issue
+    packet: templates/ai-lab-eval-review.md
+    status: drafted
+    permission_to_name_publicly: "no"
+    technical_feedback: ""
+    follow_up_owner: AuraOne
+  - date: "2026-05-12"
+    project: tool-call-replay
+    reviewer_or_org: phoenix-issues
+    channel: github-issue
+    packet: templates/ai-lab-eval-review.md
+    status: drafted
+    permission_to_name_publicly: "no"
+    technical_feedback: ""
+    follow_up_owner: AuraOne
+  - date: "2026-05-12"
+    project: agent-trace-card
+    reviewer_or_org: phoenix-issues
+    channel: github-issue
+    packet: packets/agent-trace-card-review.md
+    status: drafted
+    permission_to_name_publicly: "no"
+    technical_feedback: ""
+    follow_up_owner: AuraOne
+  - date: "2026-05-12"
+    project: lerobot-quality-gates
+    reviewer_or_org: huggingface-lerobot-issues
+    channel: github-issue
+    packet: packets/lerobot-quality-gates-review.md
+    status: drafted
+    permission_to_name_publicly: "no"
+    technical_feedback: ""
+    follow_up_owner: AuraOne
+  - date: "2026-05-12"
+    project: robot-recovery-bench
+    reviewer_or_org: selected-robotics-hil-contact
+    channel: selected-contact
+    packet: packets/robot-recovery-bench-review.md
+    status: drafted
+    permission_to_name_publicly: "no"
+    technical_feedback: ""
+    follow_up_owner: AuraOne
+  - date: "2026-05-12"
+    project: vla-robustness-kit
+    reviewer_or_org: selected-vla-research-engineer
+    channel: selected-contact
+    packet: templates/robotics-data-review.md
+    status: drafted
+    permission_to_name_publicly: "no"
+    technical_feedback: ""
+    follow_up_owner: AuraOne
+  - date: "2026-05-12"
+    project: embodiment-card
+    reviewer_or_org: selected-robotics-dataset-maintainer
+    channel: selected-contact
+    packet: templates/robotics-data-review.md
+    status: drafted
+    permission_to_name_publicly: "no"
+    technical_feedback: ""
+    follow_up_owner: AuraOne
+  - date: "2026-05-12"
+    project: otel-eval-bridge
+    reviewer_or_org: opentelemetry-semconv-issues
+    channel: github-issue
+    packet: templates/ai-lab-eval-review.md
+    status: drafted
+    permission_to_name_publicly: "no"
+    technical_feedback: ""
+    follow_up_owner: AuraOne
+  - date: "2026-05-12"
+    project: prompt-rubric-drift
+    reviewer_or_org: selected-prompt-rubric-reviewer
+    channel: selected-contact
+    packet: templates/ai-lab-eval-review.md
+    status: drafted
+    permission_to_name_publicly: "no"
+    technical_feedback: ""
+    follow_up_owner: AuraOne
+  - date: "2026-05-12"
+    project: failure-gallery
+    reviewer_or_org: selected-agent-reliability-reviewer
+    channel: selected-contact
+    packet: templates/ai-lab-eval-review.md
+    status: drafted
+    permission_to_name_publicly: "no"
+    technical_feedback: ""
+    follow_up_owner: AuraOne
+  - date: "2026-05-12"
+    project: failure-gallery
+    reviewer_or_org: selected-robotics-data-reviewer
+    channel: selected-contact
+    packet: templates/robotics-data-review.md
+    status: drafted
+    permission_to_name_publicly: "no"
+    technical_feedback: ""
+    follow_up_owner: AuraOne
+  - date: "2026-05-12"
+    project: failure-gallery
+    reviewer_or_org: selected-devrel-open-source-reviewer
+    channel: selected-contact
+    packet: templates/example-outreach-emails.md
+    status: drafted
+    permission_to_name_publicly: "no"
+    technical_feedback: ""
+    follow_up_owner: AuraOne

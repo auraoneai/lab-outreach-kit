@@ -40,6 +40,18 @@ be logged before any status is claimed.
 ## Outbound Drafts
 
 - `outbound-drafts/public-review-requests.md`
+- `outbound-drafts/public-review-send-queue.yaml`
 
 These are ready-to-post request bodies for every pending v2 pre-seed ask. They
 are not proof of outreach until the request is actually sent and logged.
+
+The send queue maps each pending PRD outreach requirement to a target, channel,
+packet, draft source, and post-send logging state.
+
+## Logs
+
+- `logs/outreach-log.schema.yaml`
+- `logs/example-outreach-log.yaml`
+- `logs/nextwave-v2-outreach-log-2026-05-12.yaml`
+
+Keep v2 outreach entries at `drafted` until a real outbound request is sent.

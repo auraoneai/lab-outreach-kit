@@ -1,0 +1,159 @@
+schema: auraone.lab-outreach-send-queue.v1
+date_prepared: "2026-05-12"
+status: drafted_not_sent
+rules:
+  - Do not send without explicit owner approval for the target channel/contact.
+  - Do not imply endorsement, adoption, approval, certification, or partnership.
+  - Do not name reviewers publicly unless they explicitly grant written permission.
+  - After each send, add or update the matching production outreach log entry.
+entries:
+  - id: mcp-risk-linter-mcp-discussions
+    project: mcp-risk-linter
+    requirement: Pre-seed with 2 MCP server maintainers before public announcement.
+    target: https://github.com/modelcontextprotocol/modelcontextprotocol/discussions
+    channel: github-discussion
+    packet: packets/mcp-risk-linter-review.md
+    draft_source: outbound-drafts/public-review-requests.md#mcp-risk-linter
+    subject: "Narrow review ask: MCP readiness linter risk taxonomy"
+    status: drafted
+    permission_to_name_publicly: "no"
+  - id: mcp-risk-linter-security-community
+    project: mcp-risk-linter
+    requirement: Pre-seed with 2 MCP server maintainers before public announcement.
+    target: https://modelcontextprotocol-security.io/
+    channel: public-community-contact
+    packet: packets/mcp-risk-linter-review.md
+    draft_source: outbound-drafts/public-review-requests.md#mcp-risk-linter
+    subject: "Narrow review ask: MCP readiness linter risk taxonomy"
+    status: drafted
+    permission_to_name_publicly: "no"
+  - id: a2a-contract-test-a2a-discussions
+    project: a2a-contract-test
+    requirement: Pre-seed with at least one A2A SDK maintainer or agent platform engineer.
+    target: https://github.com/a2aproject/A2A/discussions
+    channel: github-discussion
+    packet: templates/agent-protocol-review.md
+    draft_source: outbound-drafts/public-review-requests.md#a2a-contract-test
+    subject: "Narrow review ask: offline A2A contract profile"
+    status: drafted
+    permission_to_name_publicly: "no"
+  - id: tool-call-replay-openai-agents
+    project: tool-call-replay
+    requirement: Pre-seed with 1-2 agent eval engineers.
+    target: https://github.com/openai/openai-agents-python/issues
+    channel: github-issue
+    packet: templates/ai-lab-eval-review.md
+    draft_source: outbound-drafts/public-review-requests.md#tool-call-replay
+    subject: "Narrow review ask: turning agent traces into deterministic replay tests"
+    status: drafted
+    permission_to_name_publicly: "no"
+  - id: tool-call-replay-phoenix
+    project: tool-call-replay
+    requirement: Pre-seed with 1-2 agent eval engineers.
+    target: https://github.com/Arize-ai/phoenix/issues
+    channel: github-issue
+    packet: templates/ai-lab-eval-review.md
+    draft_source: outbound-drafts/public-review-requests.md#tool-call-replay
+    subject: "Narrow review ask: turning agent traces into deterministic replay tests"
+    status: drafted
+    permission_to_name_publicly: "no"
+  - id: agent-trace-card-phoenix
+    project: agent-trace-card
+    requirement: Pre-seed with one eval/observability maintainer.
+    target: https://github.com/Arize-ai/phoenix/issues
+    channel: github-issue
+    packet: packets/agent-trace-card-review.md
+    draft_source: outbound-drafts/public-review-requests.md#agent-trace-card
+    subject: "Narrow review ask: portable agent trace card fields"
+    status: drafted
+    permission_to_name_publicly: "no"
+  - id: lerobot-quality-gates-lerobot
+    project: lerobot-quality-gates
+    requirement: Pre-seed with Hugging Face LeRobot maintainers or a robotics lab using LeRobot.
+    target: https://github.com/huggingface/lerobot/issues
+    channel: github-issue
+    packet: packets/lerobot-quality-gates-review.md
+    draft_source: outbound-drafts/public-review-requests.md#lerobot-quality-gates
+    subject: "Narrow review ask: LeRobot dataset quality gates"
+    status: drafted
+    permission_to_name_publicly: "no"
+  - id: robot-recovery-bench-hil-contact
+    project: robot-recovery-bench
+    requirement: Pre-seed with one robotics HIL/data collection team.
+    target: robotics HIL/data-collection lab contact selected by AuraOne
+    channel: selected-contact
+    packet: packets/robot-recovery-bench-review.md
+    draft_source: outbound-drafts/public-review-requests.md#robot-recovery-bench
+    subject: "Narrow review ask: robot recovery/intervention segment schema"
+    status: drafted
+    permission_to_name_publicly: "no"
+  - id: vla-robustness-kit-selected-engineer
+    project: vla-robustness-kit
+    requirement: Pre-seed with one robotics research engineer familiar with VLA evals.
+    target: robotics/VLA research engineer selected by AuraOne
+    channel: selected-contact
+    packet: templates/robotics-data-review.md
+    draft_source: outbound-drafts/public-review-requests.md#vla-robustness-kit
+    subject: "Narrow review ask: VLA robustness diagnostic perturbations"
+    status: drafted
+    permission_to_name_publicly: "no"
+  - id: embodiment-card-selected-maintainer
+    project: embodiment-card
+    requirement: Pre-seed with one robotics dataset maintainer.
+    target: robotics dataset/model maintainer selected by AuraOne
+    channel: selected-contact
+    packet: templates/robotics-data-review.md
+    draft_source: outbound-drafts/public-review-requests.md#embodiment-card
+    subject: "Narrow review ask: structured embodiment card for robotics datasets/models"
+    status: drafted
+    permission_to_name_publicly: "no"
+  - id: otel-eval-bridge-otel-semconv
+    project: otel-eval-bridge
+    requirement: Pre-seed with one observability/eval maintainer.
+    target: https://github.com/open-telemetry/semantic-conventions/issues
+    channel: github-issue
+    packet: templates/ai-lab-eval-review.md
+    draft_source: outbound-drafts/public-review-requests.md#otel-eval-bridge
+    subject: "Narrow review ask: OpenTelemetry GenAI traces to eval cases"
+    status: drafted
+    permission_to_name_publicly: "no"
+  - id: prompt-rubric-drift-selected-eval-engineer
+    project: prompt-rubric-drift
+    requirement: Pre-seed with one eval engineer who reviews prompts/rubrics in PRs.
+    target: AI product/eval engineer selected by AuraOne
+    channel: selected-contact
+    packet: templates/ai-lab-eval-review.md
+    draft_source: outbound-drafts/public-review-requests.md#prompt-rubric-drift
+    subject: "Narrow review ask: deterministic prompt/rubric drift PR notes"
+    status: drafted
+    permission_to_name_publicly: "no"
+  - id: failure-gallery-agent-reviewer
+    project: failure-gallery
+    requirement: Pre-seed by sending 3 cases to relevant engineers for sanity-checking.
+    target: agent reliability/eval reviewer selected by AuraOne
+    channel: selected-contact
+    packet: templates/ai-lab-eval-review.md
+    draft_source: outbound-drafts/public-review-requests.md#failure-gallery
+    subject: "Narrow review ask: synthetic agent and robotics failure gallery"
+    status: drafted
+    permission_to_name_publicly: "no"
+  - id: failure-gallery-robotics-reviewer
+    project: failure-gallery
+    requirement: Pre-seed by sending 3 cases to relevant engineers for sanity-checking.
+    target: robotics data/recovery reviewer selected by AuraOne
+    channel: selected-contact
+    packet: templates/robotics-data-review.md
+    draft_source: outbound-drafts/public-review-requests.md#failure-gallery
+    subject: "Narrow review ask: synthetic agent and robotics failure gallery"
+    status: drafted
+    permission_to_name_publicly: "no"
+  - id: failure-gallery-devrel-reviewer
+    project: failure-gallery
+    requirement: Pre-seed by sending 3 cases to relevant engineers for sanity-checking.
+    target: devrel or open-source maintainer selected by AuraOne
+    channel: selected-contact
+    packet: templates/example-outreach-emails.md
+    draft_source: outbound-drafts/public-review-requests.md#failure-gallery
+    subject: "Narrow review ask: synthetic agent and robotics failure gallery"
+    status: drafted
+    permission_to_name_publicly: "no"
