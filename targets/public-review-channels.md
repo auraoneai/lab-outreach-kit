@@ -4,6 +4,30 @@ This file lists public, non-private channels that can be used for narrow
 technical review asks. Do not treat any reply as endorsement, partnership,
 approval, certification, adoption, or permission to name a reviewer publicly.
 
+## Top-Four Review Target Matrix
+
+These are the first targets to use for the top-four v2 projects. They are
+public project/community channels, not private contacts, and no outbound request
+has been sent until a log entry records it.
+
+| Project | Target 1 | Target 2 | Why this target is relevant |
+| --- | --- | --- | --- |
+| `mcp-risk-linter` | https://github.com/modelcontextprotocol/modelcontextprotocol/discussions | https://modelcontextprotocol-security.io/ | MCP maintainers and security-focused MCP reviewers can evaluate whether the taxonomy matches real protocol/tooling risks. |
+| `lerobot-quality-gates` | https://github.com/huggingface/lerobot/issues | https://discuss.huggingface.co/ | LeRobot maintainers and Hugging Face robotics users can sanity-check dataset metadata, episode, video, action/state, and card gates. |
+| `tool-call-replay` | https://github.com/openai/openai-agents-python/issues | https://github.com/Arize-ai/phoenix/issues | Agents SDK and Phoenix users are likely to care about turning failed traces into reproducible regression artifacts. |
+| `agent-trace-card` | https://github.com/Arize-ai/phoenix/issues | https://github.com/open-telemetry/semantic-conventions/issues/2664 | Observability and OpenTelemetry GenAI reviewers can assess whether the trace card preserves useful failure context without over-collecting raw logs. |
+
+## Public Source Notes
+
+- OpenAI Agents SDK tracing docs: https://openai.github.io/openai-agents-python/ref/tracing/
+- OpenAI Agents SDK issue tracker: https://github.com/openai/openai-agents-python/issues
+- Arize Phoenix repository and issue tracker: https://github.com/Arize-ai/phoenix
+- OpenTelemetry GenAI semantic conventions: https://opentelemetry.io/docs/specs/semconv/gen-ai/
+- OpenTelemetry GenAI agentic systems issue: https://github.com/open-telemetry/semantic-conventions/issues/2664
+- LeRobot repository: https://github.com/huggingface/lerobot
+- LeRobot dataset docs: https://huggingface.co/docs/lerobot/lerobot-dataset-v3
+- MCP community communication guidance: https://modelcontextprotocol.io/community/communication
+
 ## Agent Protocol Trust
 
 ### MCP risk review

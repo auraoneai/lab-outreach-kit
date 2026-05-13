@@ -32,3 +32,7 @@ no-endorsement disclaimer, and one feedback log entry.
 ## Public Review Channels
 
 - `targets/public-review-channels.md`
+
+The target matrix names at least two public review targets for each top-four v2
+project. These are candidate channels only; actual outbound requests must still
+be logged before any status is claimed.
